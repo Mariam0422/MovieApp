@@ -62,3 +62,37 @@ z-index: 9999999999999999999;
     background-color: grey;
     cursor: pointer;
 }
+.movie_info{
+padding: 10px 0px;
+}
+.movie_title{
+font-size: 18px;
+color: white;
+}
+.movie_category{
+font-size: 14px;
+color: #ffd80e;
+}
+.movie_average{
+position: absolute;
+top: 10px;
+left: 10px;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+background-color: rgb(99, 97, 97);
+color: white;
+}
+.movie_average-green{
+border: 2px solid green;
+}
+.movie_average-orange{
+border: 1px solid orange;
+}
+.movie_average-red{
+border: 1px solid red; 
+}
